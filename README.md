@@ -6,7 +6,7 @@ A [Sublime Text 2](http://www.sublimetext.com/) and [3](http://www.sublimetext.c
 ## Installation
 
 ### Using [Package Control](http://wbond.net/sublime_packages/package_control) (preferred way):
-Run `Package Control: Install Package` command, find and install `SublimeZilla` plugin.
+Run `Package Control: Install Package` command, find and install `SublimeZilla` plugin. Search for `FileZilla SFTP Import`
 
 ### Manual / Old School:
 Clone or [download](https://github.com/ment4list/SublimeZilla/archive/master.zip) git repository into your Packages folder.
@@ -56,8 +56,8 @@ To do this, create a new file called `SublimeZilla.sublime-settings` in `/Packag
 
 Add the following to this new file:
 
-* For Windows: 
-`{"filezilla_db_path": "C:\Users\[USER_NAME]\AppData\Roaming\FileZilla\sitemanager.xml"}`
+* For Windows (important to escape \ using \\): 
+`{"filezilla_db_path": "C:\\Users\\[USER_NAME]\\AppData\\Roaming\\FileZilla\\sitemanager.xml"}`
 * For OSX: 
 `{"filezilla_db_path" : "/Users/[OSX_USER]/.config/filezilla/sitemanager.xml"}`
 
